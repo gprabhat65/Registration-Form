@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm">
+            <h2>Student Registration Form</h2>
+
+            <!-- Personal Details Section -->
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="middleName">Middle Name</label>
+                    <input type="text" id="middleName" name="middleName">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+            </fieldset>
+
+            <!-- Educational Details Section -->
+            <fieldset>
+                <legend>Educational Details</legend>
+                <div class="form-group">
+                    <label for="highSchool">High School Name</label>
+                    <input type="text" id="highSchool" name="highSchool" required>
+                </div>
+                <div class="form-group">
+                    <label for="highSchoolPercentage">High School Percentage</label>
+                    <input type="text" id="highSchoolPercentage" name="highSchoolPercentage" required>
+                </div>
+                <div class="form-group">
+                    <label for="intermediate">Intermediate College Name</label>
+                    <input type="text" id="intermediate" name="intermediate" required>
+                </div>
+                <div class="form-group">
+                    <label for="intermediatePercentage">Intermediate Percentage</label>
+                    <input type="text" id="intermediatePercentage" name="intermediatePercentage" required>
+                </div>
+                <div class="form-group">
+                    <label for="graduation">Graduation College Name (if applicable)</label>
+                    <input type="text" id="graduation" name="graduation">
+                </div>
+                <div class="form-group">
+                    <label for="graduationPercentage">Graduation Percentage (if applicable)</label>
+                    <input type="text" id="graduationPercentage" name="graduationPercentage">
+                </div>
+            </fieldset>
+
+            <!-- Family Details Section -->
+            <fieldset>
+                <legend>Family Details</legend>
+                <div class="form-group">
+                    <label for="fatherName">Father's Name</label>
+                    <input type="text" id="fatherName" name="fatherName" required>
+                </div>
+                <div class="form-group">
+                    <label for="motherName">Mother's Name</label>
+                    <input type="text" id="motherName" name="motherName" required>
+                </div>
+                <div class="form-group">
+                    <label for="siblings">Number of Siblings</label>
+                    <input type="number" id="siblings" name="siblings" required>
+                </div>
+            </fieldset>
+
+            <!-- College Details Section -->
+            <fieldset>
+                <legend>College Details</legend>
+                <div class="form-group">
+                    <label for="course">Course Enrolled</label>
+                    <input type="text" id="course" name="course" required>
+                </div>
+                <div class="form-group">
+                    <label for="rollNumber">College Roll Number</label>
+                    <input type="text" id="rollNumber" name="rollNumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="year">Year of Study</label>
+                    <select id="year" name="year" required>
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+</body>
+</html>
